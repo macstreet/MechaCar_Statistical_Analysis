@@ -1,6 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG
+#### Linear Regression Summary:
 ![Linear Regression Summary Image](Resources/Images/Image_1_LG.png)
 
 #### - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -13,3 +14,18 @@
 - Referring to the summary again, the this linear model has an r-squared value of 0.715. This result shows us that 71% of the variability is explained by the model. Therefore, we can determine that this linear model does effectively predict the MPG of MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils
+#### Review of Total Summary Statistics:
+![Total Summary Stats](resources/Images/Image2_TotSum.png)
+
+#### Review of Respective Lot Statistics:
+![Lot Summary Stats](resources/Images/Image3_LotSum.png)
+
+### Summary
+This dataset provided information on the weight capacities of multiple suspension coils to review the consistency of the manufacturing process across different production lots. The first image above gives a broad view of the statistics of the dataset. In this first table, we can see the average PSI, the medain PSI, the variance of the data, and the standard deviation. 
+In the second table, the same statistics from the first table is broken out between lots, giving a better view of the differences between each lot. 
+
+#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The manufacturing data for ***ALL*** lots shows that the lots in combination meet the design specifications of the variance staying under 100 lbs per square inch. As seen in the Total Summary Statistics image, the variance is about 62.29.
+
+The only lot whose variance does not meat the design specification is **Lot 3**. In fact, Lot 3's variance at 170.29, is much much higher than that of Lot 1 and 2's - 0.98 and 2.73, respectively. This shows that Lot 3 is severely underperforming in relation to Lot 1 and 2 - without Lot 3, the variance of the entire dataset would decrease dramatically. 
+
