@@ -15,10 +15,10 @@
 
 ## Summary Statistics on Suspension Coils
 #### Review of Total Summary Statistics:
-![Total Summary Stats](resources/Images/Image2_TotSum.png)
+![Total Summary Stats](Resources/Images/Image2_TotSum.png)
 
 #### Review of Respective Lot Statistics:
-![Lot Summary Stats](resources/Images/Image3_LotSum.png)
+![Lot Summary Stats](Resources/Images/Image3_LotSum.png)
 
 ### Summary
 This dataset provided information on the weight capacities of multiple suspension coils to review the consistency of the manufacturing process across different production lots. The first image above gives a broad view of the statistics of the dataset. In this first table, we can see the average PSI, the medain PSI, the variance of the data, and the standard deviation. 
@@ -31,18 +31,18 @@ The only lot whose variance does not meat the design specification is **Lot 3**.
 
 ## T-Tests on Suspension Coils
 #### Summary of t-Test Results Across All Lots
-![All Lot t-Test](resources/Images/Image4_AllLots.png)
+![All Lot t-Test](Resources/Images/Image4_AllLots.png)
 
 
 #### Summary of t-Test Results for Lot 1
-![Lot 1 t-Test](resources/Images/Image5_Lot1.png)
+![Lot 1 t-Test](Resources/Images/Image5_Lot1.png)
 
 
 #### Summary of t-Test Results for Lot 2
-![Lot 2 t-Test](resources/Images/Image6_Lot2.png)
+![Lot 2 t-Test](Resources/Images/Image6_Lot2.png)
 
 
 #### Summary of t-Test Results for Lot 3
-![Lot 3 t-Test](resources/Images/Image7_Lot3.png)
+![Lot 3 t-Test](Resources/Images/Image7_Lot3.png)
 
 
