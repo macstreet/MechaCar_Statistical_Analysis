@@ -8,10 +8,10 @@
 - Upon review of the summary in the image above, both vehicle length and ground clearance variables have a p-values of 2.60e-12 and 5.21e-08, respectively. Since both of these p-values are less than 0.05, this means that both variables - vehicle length and ground clearance - provided a non-random amount of variance to the MPG values in the dataset.
 
 #### - Is the slope of the linear model considered to be zero? Why or why not?
-- No, the slope of this linear model is not zero. The p-value of the Intercept is 5.08e-08 - therefore we would reject the null hypothesis, and leading us to dertermine that the slope is not zero. 
+- No, the slope of this linear model is not zero. The p-value of the Intercept is 5.08e-08 - therefore we would reject the null hypothesis, and leading us to determine that the slope is not zero. 
 
 #### - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-- Referring to the summary again, the this linear model has an r-squared value of 0.715. This result shows us that 71% of the variability is explained by the model. Therefore, we can determine that this linear model does effectively predict the MPG of MechaCar prototypes.
+- Referring to the summary again, this linear model has an r-squared value of 0.715. This result shows us that 71% of the variability is explained by the model. Therefore, we can determine that this linear model does effectively predict the MPG of MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils
 #### Review of Total Summary Statistics:
@@ -21,7 +21,7 @@
 ![Lot Summary Stats](Resources/Images/Image3_LotSum.png)
 
 ### Summary
-This dataset provided information on the weight capacities of multiple suspension coils to review the consistency of the manufacturing process across different production lots. The first image above gives a broad view of the statistics of the dataset. In this first table, we can see the average PSI, the medain PSI, the variance of the data, and the standard deviation. 
+This dataset provided information on the weight capacities of multiple suspension coils to review the consistency of the manufacturing process across different production lots. The first image above gives a broad view of the statistics of the dataset. In this first table, we can see the average PSI, the median PSI, the variance of the data, and the standard deviation. 
 In the second table, the same statistics from the first table is broken out between lots, giving a better view of the differences between each lot. 
 
 ***The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?***
@@ -50,3 +50,20 @@ Lot 2 has a true sample mean of 1500.2, and a p-value of 0.61. Since the p-value
 ![Lot 3 t-Test](Resources/Images/Image7_Lot3.png)
 
 Lot 3 has a true sample mean of 1496.14 and a p-value of 0.04, which is lower than the significance level of 0.05. In this case, we would reject the null hypothesis that this sample mean and the population mean are not statistically different. 
+
+## Study Design: MechaCar vs Competition
+One statistical study could focus on comparing the safety ratings between MechaCar and its competitors. Top safety ratings could make MechaCar's vehicles stand out among the competition. 
+
+### Key Metrics
+We would need metrics on the safety ratings of both MechaCar vehicles as well as all relevant competitors. 
+
+### Hypotheses
+**Null Hypothesis**: There is no statistical difference between the safety ratings of MechaCar vehicles and their competitor vehicles.
+
+**Alternative Hypothesis**: There is a statistical difference between the safety ratings of MechaCar vehicles and the safety ratings of their competitor vehicles.
+
+### Statistical Tests
+We would perform an ANOVA test to determine means, variance, and statistical differences. 
+
+### Data Needed to Run Tests
+We would need a list of MechaCar's competitors. Once that list is obtained, we would then need safety ratings data for all of those competitors' vehicles as well as MechaCar's.
