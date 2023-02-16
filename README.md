@@ -29,3 +29,20 @@ The manufacturing data for ***ALL*** lots shows that the lots in combination mee
 
 The only lot whose variance does not meat the design specification is **Lot 3**. In fact, Lot 3's variance at 170.29, is much much higher than that of Lot 1 and 2's - 0.98 and 2.73, respectively. This shows that Lot 3 is severely underperforming in relation to Lot 1 and 2 - without Lot 3, the variance of the entire dataset would decrease dramatically. 
 
+## T-Tests on Suspension Coils
+#### Summary of t-Test Results Across All Lots
+![All Lot t-Test](resources/Images/Image4_AllLots.png)
+
+
+#### Summary of t-Test Results for Lot 1
+![Lot 1 t-Test](resources/Images/Image5_Lot1.png)
+
+
+#### Summary of t-Test Results for Lot 2
+![Lot 2 t-Test](resources/Images/Image6_Lot2.png)
+
+
+#### Summary of t-Test Results for Lot 3
+![Lot 3 t-Test](resources/Images/Image7_Lot3.png)
+
+
